@@ -1,11 +1,10 @@
 import React from 'react';
+import { JumbotronContainer } from "./containers/JumbotronContainer";
 
-function App() {
-  return (
-    <div className="App">
-      <h>This is React</h>
-    </div>
-  );
+export default function App() {
+    return (
+        <>
+            <JumbotronContainer />
+        </>
+    )
 }
-
-export default App;
