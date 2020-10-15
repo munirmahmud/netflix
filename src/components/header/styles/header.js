@@ -31,7 +31,7 @@ export const Logo = styled.img`
         width: 167px;
     }
 `;
-export const ButtonLink = styled.a`
+export const ButtonLink = styled(ReactRouterLink)`
     display: block;
     background-color: #e50914;
     width: 84px;
